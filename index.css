@@ -1,0 +1,134 @@
+body,html{
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    overflow-x:hidden;
+    color:white;
+    font-size: 23px;
+    scroll-behavior: smooth;
+    line-height: 1.6;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Teko', sans-serif;
+    }
+    code{
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Teko', sans-serif;  
+    }
+     /*video*/
+    #myVideo{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    video{
+        object-fit: cover;
+
+    }
+/*video* end/
+
+    /*nav*/
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-text {
+        color: white !important;
+    }
+    .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+    nav a{
+    color:white;
+    }
+    nav a:hover{
+        color:white;
+    }
+    .nav-link{
+    color:white;
+    }
+    .nav-link:hover{
+        color:white;
+    }
+    .custom-toggler.navbar-toggler {
+        border-color: lightgreen;
+    }
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    /*nav end*/
+
+/*Header*/
+    #hero{
+        margin-top:50px;
+        font-weight:bolder;
+        padding:5px;
+    }
+    #hero h2{
+        font-size:55px;
+    }
+    #hero h6{
+        font-size:30px;
+    }
+    .btn{
+        border-radius:50px;
+        padding:15px;
+        margin-top:10px;
+        background:transparent;
+        border-color:white;
+        font-size:20px;
+        font-weight:bolder;
+    }
+/*Header End*/
+
+/*About*/
+    #about{
+        margin:30px;
+        padding:0px;
+        margin-top:80px;
+    }
+    #about h3{
+        font-size:40px;
+        padding:5px;
+        text-decoration:underline;
+        text-decoration-color:#ae51fc;
+    }
+   #about .img-fluid{
+        height:100%;
+        width:100%;
+    }
+/*About end*/
+
+/*Roadmap*/
+
+    #Roadmap {
+        padding: 0 !important;
+        margin-bottom:30px;
+    }
+    #Roadmap h3{
+        font-size:40px;
+        font-weight:bolder;
+        padding:20px;
+    }
+    #Road .img-fluid{
+        width:100%;
+        height:100%;
+        padding:10px;
+        border-radius:50%;
+        margin-bottom:20px;
+    }
+/*Roadmap end*/
+
+/*Footer*/
+    #footer{
+        background:#050814;
+        padding:20px;
+    }
+/*Footer end*/
